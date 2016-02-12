@@ -1,6 +1,6 @@
 FROM dan/centos:7.1
 
-MAINTATNER Dan,Zheng <zcy@nicecale.com>
+MAINTAINER Dan,Zheng <zcy@nicecale.com>
 
 ENV TZ "Asia/ShenZhen"
 ENV TEAM Dan
