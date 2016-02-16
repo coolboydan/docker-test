@@ -1,4 +1,4 @@
-FROM base/centos:7.1
+FROM run/centos:7.1
 
 MAINTAINER Dan,Zheng <zcy@nicecale.com>
 
