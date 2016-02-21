@@ -17,7 +17,8 @@ ENV APP_DIR ${CATALINA_HOME}/webapps/
 
 COPY apache-tomcat-7.0.55.tar.gz apache-tomcat-7.0.55.tar.gz
 
-RUN tar zxf apache-tomcat-*.tar.gz && \
+RUN yum install tar && \
+    tar zxf apache-tomcat-*.tar.gz && \
     rm apache-tomcat-*.tar.gz && \
     mv apache-tomcat* tomcat
 
